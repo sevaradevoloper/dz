@@ -307,6 +307,9 @@ h2{
     border: 1px solid #282b2228;
     padding: 35px 25px;
 }
+.about__items:hover{
+    background: linear-gradient(to bottom,rgb(236, 201, 124),rgb(235, 147, 201));
+}
 .about__list h4{
     font-family: Raleway;
    font-weight: 600;
@@ -688,6 +691,9 @@ span{
         text-align: center;
     }
     
+    .about img{
+        display: none;
+    }
     .input-box input {
         padding: 12px;
         font-size: 16px; 
