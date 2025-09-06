@@ -642,6 +642,18 @@ span{
 
 @media (max-width: 768px) {
     
+    .burger-menu.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+    
+    .burger-menu.active span:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .burger-menu.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+    
     h2 {
         font-size: 28px;
     }
@@ -656,7 +668,8 @@ span{
     }
     
     button {
-        
+        width: 100%;
+        max-width: none;
         height: 50px;
         font-size: 14px;
     }
@@ -687,9 +700,6 @@ span{
     
     .buttons-container {
         flex-direction: column;
-    }
-    .wrapper__list{
-        display: block;
     }
 }
 
