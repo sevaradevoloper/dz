@@ -708,8 +708,7 @@ span{
         flex-direction: column;
     }
     .wrapper__list{
-    display: flex;
-    flex-direction: column;
+    display: block;
 }
 }
 
