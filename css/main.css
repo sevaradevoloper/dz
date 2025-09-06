@@ -707,6 +707,10 @@ span{
     .buttons-container {
         flex-direction: column;
     }
+    .wrapper__list{
+    display: flex;
+    flex-direction: column;
+}
 }
 
 @media (max-width: 576px) {
